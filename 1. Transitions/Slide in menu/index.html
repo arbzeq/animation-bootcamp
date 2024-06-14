@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Slide in menu</title>
+    </head>
+    <body>
+        <nav class="open">
+            <article>
+                <h5>01</h5>
+                <aside class="aside-right">
+                    <h3>Home</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Commodi, corporis!
+                    </p>
+                </aside>
+            </article>
+
+            <article>
+                <h5>02</h5>
+                <aside class="aside-right">
+                    <h3>What we do</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Praesentium pariatur dolor excepturi quos hic rem?
+                    </p>
+                </aside>
+            </article>
+
+            <article>
+                <h5>03</h5>
+                <aside class="aside-right">
+                    <h3>Who we are</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Ut voluptatem corrupti aliquam perspiciatis quae
+                        praesentium!
+                    </p>
+                </aside>
+            </article>
+
+            <article>
+                <h5>04</h5>
+                <aside class="aside-right">
+                    <h3>Contact</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Sint laborum culpa quisquam nemo ex! Quaerat!
+                    </p>
+                </aside>
+            </article>
+        </nav>
+
+        <a class="toggle"></a>
+
+
+        <main>
+            <h1>Hello there</h1>
+            <p>Toggle the red button in the upper left corner</p>
+        </main>
+
+        
+        <script>
+            document.querySelector("nav").addEventListener("click", (e) => {
+                e.target.classList.toggle("open");
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 10vh auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto auto;
+    background-color: rgb(255, 235, 209);
+    height: 30vh;
+    width: 30vh;
+    border: 2px solid black;
+}
+
+button {
+    width: 60%;
+    height: 40%;
+    background-color: rgb(170, 83, 83);
+    color: white;
+    font-weight: 500;
+    padding: 2vh 3vh;
+    border-radius: 1rem;
+}
+
+button:hover {
+    width: 80%;
+    height: 60%;
+    background-color: cadetblue;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.75);
+}
