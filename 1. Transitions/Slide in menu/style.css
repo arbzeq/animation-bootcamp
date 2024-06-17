@@ -56,7 +56,6 @@ section.container {
 
     nav.open {
         transform: translateX(0);
-        background-color: red;
     }
     
 }
